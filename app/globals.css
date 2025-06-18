@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #FEFBEA;
+  --color-green: #317039;
+  --color-bg: #17351B;
+  --color-red: #CC4B24;
+}
+
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/bg.jpg') ;
+  background-size: cover;
+}
+
+.bar::-webkit-scrollbar{
+  display: none;
+}
+
+.link {
+  @apply capitalize px-4 py-2.5 rounded-full text-base max-md:text-sm max-sm:text-xs;
+}
