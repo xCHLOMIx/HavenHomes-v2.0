@@ -1,5 +1,8 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
+import { FaVoicemail } from "react-icons/fa";
+import { LuMail } from "react-icons/lu";
+import Contact from "./sections/Contact";
 
 export default function Home() {
   return (
@@ -17,7 +20,9 @@ export default function Home() {
               in Poland find safe, affordable, and
               comfortable housing.
             </p>
-            <button className="bg-white hover:rounded-xl text-green font-bold px-7 max-md:px-6 max-sm:px-5 max-md:text-sm max-sm:text-xs cursor-pointer py-4 max-md:py-3 rounded-full max-md:rounded-2xl max-sm:rounded-xl mt-10 max-sm:mt-4">Get started</button>
+            <a href="#contact">
+              <button className="bg-white hover:rounded-xl text-green font-bold px-7 max-md:px-6 max-sm:px-5 max-md:text-sm max-sm:text-xs cursor-pointer py-4 max-md:py-3 rounded-full max-md:rounded-2xl max-sm:rounded-xl mt-10 max-sm:mt-4">Get started</button>
+            </a>
           </div>
         </div>
       </div>
@@ -37,10 +42,10 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-3 w-11/12 max-w-6xl gap-5 mt-6">
+        <div className="grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 w-11/12 max-w-6xl gap-5 mt-6">
           <div className="hover:-translate-y-2 cursor-pointer duration-300 transition">
-            <div className="bg-white p-6 rounded-3xl">
-              <div className="bg-red/20 rounded-xl">
+            <div className="bg-black/40 p-6 rounded-3xl">
+              <div className="bg-red/20 flex justify-center rounded-xl">
                 <img src="/call.svg" alt="Apartment illustration" width={300} height={200} />
               </div>
             </div>
@@ -53,8 +58,8 @@ export default function Home() {
             </div>
           </div>
           <div className="hover:-translate-y-2 cursor-pointer duration-300 transition">
-            <div className="bg-white p-6 rounded-3xl">
-              <div className="bg-blue-300/20 rounded-xl">
+            <div className="bg-black/40 p-6 rounded-3xl">
+              <div className="bg-blue-300/20 flex justify-center rounded-xl">
                 <img src="/connect.svg" alt="Apartment illustration" width={300} height={200} />
               </div>
             </div>
@@ -67,8 +72,8 @@ export default function Home() {
             </div>
           </div>
           <div className="hover:-translate-y-2 cursor-pointer duration-300 transition">
-            <div className="bg-white p-6 rounded-3xl">
-              <div className="bg-green/20 rounded-xl">
+            <div className="bg-black/40 p-6 rounded-3xl">
+              <div className="bg-green/20 flex justify-center rounded-xl">
                 <img src="/apt.svg" alt="Apartment illustration" width={300} height={200} />
               </div>
             </div>
@@ -82,6 +87,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Contact />
     </div>
   );
 }
