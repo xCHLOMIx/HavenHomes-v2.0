@@ -42,7 +42,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 w-11/12 max-w-6xl gap-5 mt-6">
+        <div className="grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 w-11/12 max-w-6xl gap-5 mt-10">
           <div className="hover:-translate-y-2 cursor-pointer duration-300 transition">
             <div className="bg-black/40 p-6 rounded-3xl">
               <div className="bg-red/20 flex justify-center rounded-xl">

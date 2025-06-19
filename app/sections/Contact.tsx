@@ -22,14 +22,12 @@ const Contact = () => {
             <span>heritu2000@gmail.com</span>
           </div>
         </a>
-        <a href="mailto:heritu2000@gmail.com">
           <div className="flex gap-3 items-center cursor-pointer hover:bg-black/10 duration-300 transition rounded-2xl p-3">
             <div className="bg-black p-1.5 py-2 text-white rounded-md">
               <BsPhone className="w-6 h-auto" />
             </div>
-            <span>+48 663889793</span>
+            <span>+48 663 889 793</span>
           </div>
-        </a>
       </div>
     </div>
   )
