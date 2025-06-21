@@ -50,7 +50,7 @@ export default function Home() {
               </div>
             </div>
             <div className="px-5 pt-5 flex flex-col gap-3">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-5">
                 <div className="bg-white p-1 px-2 rounded-full outline-2 outline-red text-bg font-bold"><span>01</span></div>
                 <h4 className="font-bold text-white">Tell Us What You Need</h4>
               </div>
@@ -64,7 +64,7 @@ export default function Home() {
               </div>
             </div>
             <div className="px-5 pt-5 flex flex-col gap-3">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-5">
                 <div className="bg-white p-1 px-2 rounded-full outline-2 outline-violet-500 text-bg font-bold"><span>02</span></div>
                 <h4 className="font-bold text-white">We Connect You to Landlords</h4>
               </div>
@@ -78,7 +78,7 @@ export default function Home() {
               </div>
             </div>
             <div className="px-5 pt-5 flex flex-col gap-3">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-5">
                 <div className="bg-white p-1 px-2 rounded-full outline-2 outline-blue-400 text-bg font-bold"><span>03</span></div>
                 <h4 className="font-bold text-white">Move In with Confidence</h4>
               </div>
